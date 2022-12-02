@@ -33,7 +33,7 @@ def working_with_neurons(side):
         W.append([0 for _ in range(0, using_neurons)])
 
 
-def learning1(number):
+def train(number):
     global using_neurons, W, numbers
     numbers.append(number)
     X = number

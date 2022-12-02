@@ -1,4 +1,4 @@
-from learning import working_with_neurons, learning1, print_num, recovering
+from learning import working_with_neurons, train, print_num, recovering
 import os
 from os.path import isfile
 
@@ -44,7 +44,7 @@ def main():
     print("Процесс обучения")
     working_with_neurons(side_of_num)
     for each_list in numbers:
-        learning1(each_list)
+        train(each_list)
     print()
 
     print("Поломанная картинка")
